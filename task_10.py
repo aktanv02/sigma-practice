@@ -8,3 +8,12 @@
 # 3. Вызови функцию calculate ДВА раза с разными значениями 
 #    и разными operation
 # 4. Выведи оба результата на экран
+des calculate(a, b operation)
+    if operation == "plus":
+        return a + b
+    else:
+        return a - b
+result1 = calculate(10, 5, "plus")
+result2 = calculate(20, 7, "minus")
+print(result1)
+print(result2)
